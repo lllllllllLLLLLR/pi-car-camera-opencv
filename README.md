@@ -1,6 +1,6 @@
 # Pi Car Camera — OpenCV MJPEG Stream
 
-A small coursework project that opens an MJPEG video stream from a Raspberry Pi–powered robot car camera and displays the live frame feed with OpenCV.
+A project that opens an MJPEG video stream from a Raspberry Pi–powered robot car camera and displays the live frame feed with OpenCV.
 
 ## Highlights
 - Connects to a Raspberry Pi MJPEG stream (`http://<pi-ip>:8080/?action=stream`) via OpenCV `VideoCapture`.
@@ -20,9 +20,4 @@ A small coursework project that opens an MJPEG video stream from a Raspberry Pi�
 ├── 小车摄像头.ipynb           # empty notebook stub (notebook-based exploration, unused)
 ├── requirements.txt
 └── README.md
-```
-
-## Notes
-- This is an undergraduate lab exercise (robotics / embedded vision coursework).
-- The IP address in the stream URL has been replaced with a placeholder `<raspberry-pi-ip>`; substitute your own Pi's address before running.
-- The companion empty notebook was kept for completeness but contains no executable cells.
+``` 
